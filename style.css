@@ -1,0 +1,147 @@
+*{
+    padding: 0;;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #222;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.head{
+    padding:20px ;
+}
+.crud{
+    width: 80%;
+    margin:  auto;
+    text-align: center;
+    
+}
+ input{
+    background-color: rgb(26, 25, 25);
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    outline: none;
+    height: 40px;
+    color: white;
+    margin: 10px 0px;
+    font-size: 15px;
+    width: 100%;
+}
+html {
+    scroll-behavior: smooth;
+}
+.prices {
+    display: flex;
+    justify-content: start;
+    
+
+}
+.prices input{
+    width: 20% ;
+    margin-right: 10px;
+}
+#count, #category , #create{
+    width: 100%;
+}
+
+.button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(3, 14, 121);
+    color: white;
+    transition: 0.2s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#reset , #bytitle ,#bycategory{
+    width: 30%;
+}
+
+.button:hover{
+    background-color: rgb(129, 4, 123);
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.total{
+    width: fit-content;
+    background-color: rgb(255, 85, 0);
+    border-radius: 3px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.searchby{
+    display: flex;
+    justify-content: space-between;
+}
+.id{
+    font-weight: bold;
+    font-size: 20px;
+}
+.font{
+    font-size: 18px;
+}
+.searchby {
+  display: flex;
+  justify-content: space-between;
+
+}
+.delete{
+    width: 100%;
+}
+table{
+   margin: auto;
+}
+/*table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }*/
+  tr{
+    border-bottom: 11px solid rgb(172, 161, 161);
+    border-top: 1px solid rgb(122, 81, 81);
+    border-collapse: collapse;
+  }
+
+input:focus{
+    background-color: black;
+}
+
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width:100% ;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: rgb(3, 14, 121);
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+thead th{
+    font-size: 20px;
+}
+.styled-table th,
+.styled-table td {
+padding: 10px 10px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+.row{
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 10px;
+}
